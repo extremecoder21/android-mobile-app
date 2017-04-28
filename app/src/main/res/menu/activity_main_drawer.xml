@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_48dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_textsms_black_48dp"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_active_black_48dp"
+            android:title="Notifictions" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Photo" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_visitors"
+            android:icon="@drawable/ic_account_box_black_48dp"
+            android:title="Views" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_account_box_black_48dp"
+            android:title="View History" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_library_music_black_48dp"
+            android:title="Events" />
+    </group>
+</menu>
